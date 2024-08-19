@@ -1,0 +1,16 @@
+{
+    "DEV": {
+        "srv_meta": "http://192.168.10.17:8080",
+        "appId": "SampleApp",
+        "clusterName": "default",
+        "namespaceName": "application",
+        "secret": "8e3b376d52144b21aebd631d20be6efb"
+    },
+    "PRO": {
+        "srv_meta": "http://192.168.0.12:8080",
+        "appId": "SampleApp",
+        "clusterName": "default",
+        "namespaceName": "application",
+        "secret": "8e3b376d55874b21aecea31d20be6efb"
+    }
+}
