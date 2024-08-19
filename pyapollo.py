@@ -100,4 +100,7 @@ class ApolloClient():
             namespace_obj = self.get_namespace(namespace)
             self._cache[namespace] = namespace_obj
 
-        return namespace_obj.get('configurations', None)
+        conf = None
+        if namespace_obj is not None:
+            conf = namespace_obj.get('configurations', None)
+        return conf
